@@ -1,0 +1,51 @@
+.container {
+	margin: auto;
+	width: 1024px;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	height: 500px;
+}
+
+.banner_content {
+	margin-top: 8em;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 12em;
+	justify-content: space-between;
+}
+
+.background-image {
+	background-image: url("../img/hero_img.jpg");
+	background-size: 1400px 600px;
+	width: 100%;
+	height: 500px;
+	opacity: 1;
+}
+
+/*
+.blackie {
+	z-index: -1;
+	position: absolute;
+	background-color: #000;
+	width: 100%;
+	height: 500px;
+}
+*/
+
+h1 {
+	font-family: roboto, sans-serif;
+	font-weight: 900;
+	font-size: 4em;
+	color: #fff;
+}
+
+p {
+	font-family: roboto, sans-serif;
+	font-weight: 900;
+	font-size: 1.5em;
+	color: #fff;
+}
